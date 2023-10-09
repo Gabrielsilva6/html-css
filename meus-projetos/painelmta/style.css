@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagens/main.jpg);
+}
+#content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    max-width: 270px;
+}
+#logo{
+    display: inline-block;
+    background-color: rgb(255, 50, 50);
+    height: 300px;
+    padding-top: 20px;
+}
+#dados{
+    display: inline-block;
+    background-color: white;
+    padding-top: 71px;
+    padding-right: 70px;
+    padding-bottom: 26px;
+    padding-left: 70px;
+}
+#login{
+    margin-top: 2px;
+    height: 30px;
+    width: 200px;
+    border: none;
+}

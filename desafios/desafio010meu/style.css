@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Glass+Antiqua&display=swap');
+
+@font-face{
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+#robo{
+    width: 300px;
+    margin: auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #74FD82;
+}
+
+header{
+    background-image: linear-gradient(to top, #147F1F,#28FC3E);
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+}
+
+header > h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+}
+
+nav{
+    background-color: #147F1F;
+    padding: 0;
+    padding: 0;
+    text-align: left;
+    text-indent: 30px;
+}
+
+nav > a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: #20C931;
+    background-color: #155f1d;
+    border-radius: 5px;
+}
+
+#primeiro{
+    padding-top: 30px;
+}
+
+.fonte{
+    font-family: idroid;
+}
+
+#content{
+    min-width: 280px;
+    max-width: 650px;
+    margin: auto;
+    padding: 15px;
+    color: #147F1F;
+    background-color: white;
+}
+
+#content > h2{
+    background-image: linear-gradient(to right ,#1b852644,#155f1c13);
+}
+
+#content > p{
+    padding: 15px;
+    text-align: justify;
+    color: black;
+}
+
+p{
+    text-indent: 13px;
+}
+
+#video{
+    width: 100%;
+}
+
+#fundovi{
+    min-width: 280px;
+    max-width: 650px;
+    margin: auto;padding: 15px;
+    color: #147F1F;
+    background-color: #155f1d;
+}
+
+ul{
+    padding: 15px;
+}
+
+#mais{
+    font-weight: bold;
+    background-color: #74FD82;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.26);
+}
+#mais > h2{
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    background-color: #147F1F;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#mais > ul{
+    display: inline-block;
+    padding: 18px 18px 18px 25px;
+    color: black;
+}
+
+#mais > p{
+    text-align: justify;
+    padding: 7px;
+    color: black;
+}
+
+#resto{
+    min-width: 280px;
+    max-width: 650px;
+    margin: auto;
+    padding: 15px;
+    color: #147F1F;
+    background-color: white;
+}
+
+#primeira{
+    margin-right: 110px;
+}
+
+#lado{
+    display: inline-block;
+}
+
+#fim{
+    color: black;
+    font-weight: bold;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+#fim > p{
+    text-indent: 30px;
+}
+
+#creditos{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #155f1d;
+}
+
+#creditos > p > a{
+    color: #00f018;
+    text-decoration: none;
+}
+
+#creditos > p > a:hover{
+    color: #00f018dc;
+}
