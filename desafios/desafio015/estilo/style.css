@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagens/fundo-madeira.jpg');
+    background-position: center center;
+    background-size: 2000px;
+}
+
+img.botao {
+    max-width: 50px;
+    border-radius: 100%;
+    margin-bottom: 7px;
+}
+
+#iphone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#telahome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#home {
+    width: 256px;
+    height: 444px;
+    margin-top: 8px;
+}
+
+.iph {
+    max-width: 280px;
+}
+
+.fixo {
+    margin-left: 96.2vw;
+}
