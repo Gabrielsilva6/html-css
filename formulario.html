@@ -90,15 +90,15 @@
                 <legend>Dados Pessoais</legend>
                 <p>
                     <label for="inome">Nome</label> <br>
-                    <input type="text" name="nome" id="inome">
+                    <input type="text" name="nome" id="inome" required>
                 </p>
                 <p>
                     <label for="inas">Data de Nascimento</label> <br>
-                    <input type="date" name="nas" id="inas" value="2023-12-13">
+                    <input type="date" name="nas" id="inas" value="2023-12-13" required>
                 </p>
                 <p>
                     <label for="icpf">Cpf</label> <br>
-                    <input type="number" name="cpf" id="icpf">
+                    <input type="number" name="cpf" id="icpf" required>
                 </p>
             </fieldset>
 
@@ -106,27 +106,57 @@
                 <legend>Endereço</legend>
                 <p>
                     <label for="icep">CEP</label> <br>
-                    <input type="number" name="cep" id="icep">
+                    <input type="number" name="cep" id="icep" required>
                 </p>
                 <p>
                     <label for="icid">Cidade</label> <br>
-                    <input type="text" name="cid" id="icid">
+                    <input type="text" name="cid" id="icid" required>
                 </p>
                 <p>
                     <label for="iest">Estado</label> <br>
-                    <input type="text" name="est" id="iest">
+                    <select name="est" id="iest">
+                        <optgroup>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN"> Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocanctins</option>
+                            <option value="DF">Distrito Federal</option>
+                        </optgroup>
+                    </select>
                 </p>
                 <p>
                     <label for="ibai">Bairro</label> <br>
-                    <input type="text" name="bai" id="ibai">
+                    <input type="text" name="bai" id="ibai" required>
                 </p>
                 <p>
                     <label for="irua">Rua</label> <br>
-                    <input type="text" name="rua" id="irua">
+                    <input type="text" name="rua" id="irua" required>
                 </p>
                 <p>
                     <label for="inum">Número</label> <br>
-                    <input type="number" name="num" id="inum">
+                    <input type="number" name="num" id="inum" required>
                 </p>
                 <p>
                     <label for="icom">Complemento <span>- Opcional</span></label> <br>
@@ -138,15 +168,15 @@
                 <legend>Dados Bancários</legend>
                 <p>
                     <label for="iban">Banco</label> <br>
-                    <input type="text" name="ban" id="iban">
+                    <input type="text" name="ban" id="iban" required>
                 </p>
                 <p>
                     <label for="iage">Agência</label> <br>
-                    <input type="number" name="age" id="iage">
+                    <input type="number" name="age" id="iage" required>
                 </p>
                 <p>
                     <label for="icon">Conta</label> <br>
-                    <input type="number" name="con" id="icon">
+                    <input type="number" name="con" id="icon" required>
                 </p>
             </fieldset>
             <p id="outro">
